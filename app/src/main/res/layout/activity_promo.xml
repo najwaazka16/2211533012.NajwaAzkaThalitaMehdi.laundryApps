@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PromoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--button-->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promo"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            android:textSize="17dp"/>
+        <!-- fulan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/softyelow"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HARIANMURAH"
+                android:textColor="@color/abu"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="43dp"
+                android:text="Promo cuci 10 kg gratis cuci 1 Kg berlaku untuk kelipatannya"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="93dp"
+                    android:layout_height="29dp"
+                    android:layout_gravity="center"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Active"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- fulan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/softyelow"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MINGGUANMURAH"
+                android:textColor="@color/abu"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="43dp"
+                android:text="Promo cuci 10 kg gratis cuci 1 Kg berlaku untuk kelipatannya"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="93dp"
+                    android:layout_height="29dp"
+                    android:layout_gravity="center"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Active"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
