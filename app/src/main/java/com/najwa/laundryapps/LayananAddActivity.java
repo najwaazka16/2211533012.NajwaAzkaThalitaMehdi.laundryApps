@@ -13,14 +13,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.my.laundryappsy.model.ModelLayanan;
+import com.najwa.laundryapps.ModelLayanan;
 
 import java.util.UUID;
 
 public class LayananAddActivity extends AppCompatActivity {
     EditText edTipe, edHarga;
     Button btnLaySimpan, btnLayBatal;
-    SQLiteHelper2 db;
+    SQLiteHelper db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ public class LayananAddActivity extends AppCompatActivity {
         btnLaySimpan = (Button) findViewById(R.id.btnLayAddSimpan);
         btnLayBatal = (Button) findViewById(R.id.btnLayAddBatal);
 
-        db = new SQLiteHelper2(LayananAddActivity.this);
+        db = new SQLiteHelper(LayananAddActivity.this);
         btnLaySimpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
