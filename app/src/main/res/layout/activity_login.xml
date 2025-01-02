@@ -56,6 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/lg"
                 android:layout_marginBottom="@dimen/lg"
+                android:backgroundTint=""
                 android:text="LOGIN" />
 
         </LinearLayout>

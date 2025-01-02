@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.my.laundryappsy.model.ModelLayanan;
+import com.najwa.laundryapps.ModelLayanan;
 
 import java.util.List;
 
